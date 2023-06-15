@@ -4,7 +4,7 @@ import br.com.devsgeeknerd.calculadora.classes.Adicao;
 import br.com.devsgeeknerd.calculadora.classes.Divisao;
 import br.com.devsgeeknerd.calculadora.classes.Multiplicacao;
 import br.com.devsgeeknerd.calculadora.classes.Subtracao;
-import br.com.devsgeeknerd.calculadora.classes.CalculadorMatematico;
+import br.com.devsgeeknerd.interfaces.CalculadorMatematico;
 
 public class FabricaCalculosMatematicos {
     public CalculadorMatematico criarCalculador(int numero1, int numero2, String calculo) {
